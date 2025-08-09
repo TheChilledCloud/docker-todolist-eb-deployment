@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheChilledCloud To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TheChilledCloud To-Do List</h1>
+        </header>
+        
+        <div class="todo-input-section">
+            <div class="input-container">
+                <input type="text" id="todoInput" placeholder="Add a new task..." maxlength="200">
+                <button id="addBtn">Add</button>
+            </div>
+        </div>
+        
+        <div class="todo-stats">
+            <span id="totalTodos">Total: 0</span>
+            <span id="completedTodos">Completed: 0</span>
+            <span id="pendingTodos">Pending: 0</span>
+        </div>
+        
+        <div class="todo-list-container">
+            <ul id="todoList" class="todo-list">
+                <!-- Todos will be dynamically inserted here -->
+            </ul>
+            
+            <div id="emptyState" class="empty-state">
+                <p>No tasks yet. Add one above to get started!</p>
+            </div>
+            
+            <div id="loading" class="loading hidden">
+                <p>Loading...</p>
+            </div>
+            
+            <div id="error" class="error hidden">
+                <p>Something went wrong. Please try again.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
