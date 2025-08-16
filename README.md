@@ -28,7 +28,7 @@ This project is designed for learning:
    ```
    *(Note: The MONGODB_URI is already set in docker-compose.yml.)*
 
-3. **Access the App:** Open your browser and go to http://localhost:80.
+3. **Access the App:** Open your browser and go to http://localhost:3000.
 
 
 ## Project Structure
