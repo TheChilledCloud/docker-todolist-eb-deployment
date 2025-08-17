@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  backend test:
+  backend-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,8 +26,8 @@ jobs:
       - name: Run lint
         run: npm run lint
 
-  frontend test:
-    runs-on ubuntu-latest
+  frontend-test:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
