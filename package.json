@@ -9,16 +9,24 @@
     "lint": "eslint .",
     "test": "jest --detectOpenHandles"
   },
-  "keywords": ["todo", "express", "mongodb", "nodejs"],
+  "keywords": [
+    "todo",
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
     "nodemon": "^3.0.1"
   }
 }
